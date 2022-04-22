@@ -1,12 +1,12 @@
 import React from 'react'
-import { Typography } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 
 export default function Experience() {
   return (
-    <div>
+    <Box sx={{color:'#fff', minHeight:'50vh'}}>
         <Typography>
             Here are my experience
         </Typography>
-    </div>
+    </Box>
   )
 }
