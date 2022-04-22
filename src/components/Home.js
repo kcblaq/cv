@@ -53,6 +53,7 @@ export default function Home() {
    onClick={() => console.log('Welcome')}
        width={{ xs: '100%', sm: '100%', md: '20%' }}
        text="Get in touch"
+       doSomething={() => window.open('/contact')}
        
    />
    

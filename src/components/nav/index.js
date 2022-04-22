@@ -1,9 +1,11 @@
 import React from 'react';
-import { Box, Typography, Link, Button } from '@mui/material';
+import { Box, Link, Button } from '@mui/material';
 import { makeStyles } from '@material-ui/core';
 import MyButton from '../../design-patterns/MyButton';
 import CodeOffIcon from '@mui/icons-material/CodeOff';
-import { GitHub, LinkedIn, Twitter,Straight } from '@mui/icons-material';
+import { GitHub, LinkedIn, Twitter,Straight,WhatsApp } from '@mui/icons-material';
+
+
 
 const useStyles = makeStyles({
 	num: {
@@ -66,7 +68,8 @@ export default function Nav() {
 						<span className={classes.num}> 04.</span> Contact{' '}
 					</Link>
 					<Box sx={{ mt: { xs: 2, sm: 2, md: 0, lg: 0 } }}>
-						<MyButton width={'20%'} text="Resume" />
+						<MyButton width={'20%'} text="Resume" 
+						doSomething={() => window.open('https://docs.google.com/document/d/1wjvjJKSTnUIlTEsL0Yw2rwhv-K3pKMX4/edit?usp=sharing&ouid=113748523768525640600&rtpof=true&sd=true','_blank') } />
 					</Box>
 				</Box>
 			</Box>
@@ -97,6 +100,14 @@ export default function Nav() {
 					{' '}
 					<Twitter />{' '}
 				</Link>
+
+				<Link
+					href="https://wa.me/2348032465303"
+					sx={{ mt: 4, textDecoration: 'none', color: 'primary.hue' }}>
+					
+                <WhatsApp />
+				</Link>
+
                 <Link
 					href="/"
 					sx={{ mt: 4, textDecoration: 'none', color: 'primary.hue' }}>

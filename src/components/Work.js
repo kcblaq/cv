@@ -3,7 +3,6 @@ import {
 	Typography,
 	Card,
 	CardActionArea,
-	CardMedia,
 	CardContent,
 	Link,
 } from '@mui/material';
@@ -34,8 +33,12 @@ export default function Work() {
 				{projects.map((project) => {
 					return (<Box sx={{display:'flex',flexDirection:'column',
                      justifyContent:'space-evenly', alignItems:'center' }}>
-						<Link href={project.url}>
-                        <Card sx={{ width: 245, height:250, overflow:'scroll', margin:2  }}>
+						<Link underline='none' target='_blank' href={project.url}>
+                        <Card sx={{ width: 245, height:250, overflow:'scroll', margin:2, 
+                        '&:hover':{
+                            width:260, transition: 'all 0.2s ease', backgroundColor:'primary.hue'
+                        }  
+                        }}>
 					<CardActionArea>
 						
 						<CardContent sx={{}}>

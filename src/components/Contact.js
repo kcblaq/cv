@@ -1,6 +1,7 @@
 
 import {  Box, Typography, Button} from '@mui/material'
 import React from 'react'
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 export default function Contact() {
   return (
@@ -19,7 +20,9 @@ export default function Contact() {
             forward to working with you.
           </Typography>
           <Button variant='outlined' sx={{ textTransform:'none',color:'primary.main',mt:4 }} 
-          onClick={() => window.location = 'mailto:kcblack22@gmail.com' }> Get in touch</Button>
+          onClick={() => window.location = 'mailto:kcblack22@gmail.com' }> Mail me</Button>
+          <Button variant='outlined' sx={{ textTransform:'none',color:'primary.main',mt:4 }} 
+          onClick={() => window.location = 'https://wa.me/2348032465303' }> Whatsapp me <WhatsAppIcon sx={{ml:2}} /> </Button>
     </Box>
   )
 }
