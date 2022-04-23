@@ -7,7 +7,6 @@ import Nav from './components/nav';
 import Home from './components/Home';
 import Foota from './components/Footer';
 import { ThemeProvider } from '@mui/material/styles'
-// import theme from './design-patterns/Theme';
 import theme from './design-patterns/Theme'
 import Contact from './components/Contact';
 import Work from './components/Work';

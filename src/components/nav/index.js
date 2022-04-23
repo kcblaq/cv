@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Link, Button } from '@mui/material';
-import { makeStyles } from '@material-ui/core';
+// import { makeStyles } from '@material-ui/core';
+import { makeStyles } from '@mui/styles';
 import MyButton from '../../design-patterns/MyButton';
 import CodeOffIcon from '@mui/icons-material/CodeOff';
 import { GitHub, LinkedIn, Twitter,Straight,WhatsApp } from '@mui/icons-material';

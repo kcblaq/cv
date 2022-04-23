@@ -1,8 +1,8 @@
 import {  Box, Typography} from '@mui/material'
 import React from 'react'
-import { makeStyles } from '@material-ui/core';
+// import { makeStyles } from '@material-ui/core';
+import { makeStyles } from '@mui/styles';
 import Pix from '../components/kelechidecadev.jpeg'
-import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 
 const skills = [
   'JavaScript (ES6+)',

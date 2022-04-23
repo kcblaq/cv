@@ -10,9 +10,6 @@ export default function Contact() {
         <Typography variant='h5' sx={{color:'primary.white', display:'flex', mb:4,mt:2}} >
             <Typography variant='h5' sx={{color:'primary.main'}}> 04. </Typography> Contact me
           </Typography>
-          {/* <Typography variant='h4' sx={{color:'primary.hue'}} > 
-            Get in touch
-          </Typography> */}
           <Typography variant='p' sx={{color:'primary.white', lineHeight:2}} > 
             I am a freelancer, specialized on frontend web development.
             As a software engineer with Computer science background, with experience in Fintech, academics, 
