@@ -23,6 +23,13 @@ const projects = [
         url: 'https://globalreformationnetwork.org/',
         description:'A complete full-featured online school for various certifications and different user categories and privileges',
         tools:['Wordpress','PHP']
+    },
+    
+    {
+        name:'Hallo Asset',
+        url: 'https://www.haloasset.com/',
+        description:'A Fintech startup based in Nigeria, where users can invest and grow their funds, with wide range of payment tools',
+        tools:['React','Typescript', 'ExpressJs']
     }
 ]
 
