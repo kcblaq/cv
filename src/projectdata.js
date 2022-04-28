@@ -29,6 +29,12 @@ const projects = [
         url: 'https://warm-truffle-79adef.netlify.app/',
         description:'A simple student portal for viewing result and downloading it. It fetches the complete student data and use that to populate the result and dashboard, with the added feature of ability to download the result',
         tools:['ReactJs','Postman', 'ExpressJs','Mui','DownloadAsPDF.js']
+    },
+    {
+        name:'Global Reformation',
+        url: 'https://globalreformationnetwork.org/',
+        description:'A complete full-featured online school for various certifications and different user categories and privileges',
+        tools:['Wordpress','PHP']
     }
 ]
 
