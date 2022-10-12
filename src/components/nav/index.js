@@ -70,7 +70,7 @@ export default function Nav() {
 					</Link>
 					<Box sx={{ mt: { xs: 2, sm: 2, md: 0, lg: 0 } }}>
 						<MyButton width={'20%'} text="Resume" 
-						doSomething={() => window.open('https://docs.google.com/document/d/1wjvjJKSTnUIlTEsL0Yw2rwhv-K3pKMX4/edit?usp=sharing&ouid=113748523768525640600&rtpof=true&sd=true','_blank') } />
+						doSomething={() => window.open('https://docs.google.com/document/d/12p0cGnd_q5K6XJOzA43GKgMAGi-NWFWSZnhrw_-fqYk/edit?usp=sharing','_blank') } />
 					</Box>
 				</Box>
 			</Box>
